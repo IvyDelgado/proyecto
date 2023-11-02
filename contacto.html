@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingenia Explorer</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="shortcut icon" href="/img/logo.jpg" type="image/x-icon">
+<body>
+
+    <header>
+        <h1 class="nombre-sitio">Ingenia <span> Explorer </span></h1> 
+    </header>
+
+    <div class="container-navegacion">
+        <nav class="nav-principal container">
+            <a href="inicio.html">Inicio</a>
+            <a href="AlgebraLineal.html">Algebra lineal</a>
+            <a href="AlgoritmosProgramacion.html">Algoritmos y programacion</a>
+            <a href="CalculoDiferencial.html">Calculo diferencial</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </div>
+
+    <div class="contacto"></div>
+    
+    
+    <main class="container-principal container">
+        <h2 class="text-center">Contacto</h2>   
+
+        <form class="formulario">
+            <fieldset class="fild">
+                <legend>Tus Datos</legend>
+
+                <div class="campo">
+                    <label for="nombre">Nombre:</label>
+                    <input id="nombre" type="text" placeholder="Coloca tu nombre"  required/>
+                </div>
+
+                <div class="campo">
+                    <label for="asunto">Asunto:</label>
+                    <input id="asunto" type="text" placeholder="Tu Asunto">
+                </div>
+
+                <div class="campo">
+                    <label for="email">E-mail:</label>
+                    <input id="email" type="email" placeholder="Tu e-mail">
+                </div>
+
+                <div class="campo">
+                    <label for="tel">Telefono:</label>
+                    <input id="tel" type="tel" placeholder="Tu telefono">
+                </div>
+                    
+
+                <div class="campo">
+                    <label for="tel">Mensaje:</label>
+                    <textarea rows="10" cols="25"></textarea>
+                </div>
+            </fieldset>
+
+            <fieldset class="fild">
+                <legend>Carrera</legend>
+
+                <div class="campo">
+                    <label for="carrera">Carrera</label>
+                    <select id="carrera">
+                        <option>-- Seleccione --</option>
+                        <option value="Sistemas">Ingenieria de Sistemas</option>
+                        <option value="Electronica">Ingenieria Electronica</option>
+                        <option value="Aeronautica">Ingenieria Aeronautica</option>
+                        <option value="Mecatronica">Ingenieria Mecatronica</option>
+                        <option value="Multimedia">Ingenieria Multimedia</option>
+                        <option value="Sonido">Ingenieria de Sonido</option>
+                    </select>
+                </div>
+            </fieldset>
+            <input class="btn" type="submit" value="Enviar Formulario">
+        </form>
+    </main>
+
+    <footer class="site-footer">
+        <p class="copyright">Todos los derechos reservados, Universidad San Buenaventura. </p>
+    </footer>
+
+        </body>
+        </html> 
