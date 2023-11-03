@@ -182,7 +182,61 @@ img {
 .texto-nosotros h2{
     text-align: center;
 }
-
+/* Bloque inicio */
+.home {
+    background-image: linear-gradient( to right , transparent 50%,#FFBB5C 50%, #FFBB5C 50% ), url(/img/incio.jpg);
+    padding: 10rem 0;
+    background-position: 10% center;
+    background-repeat: no-repeat;
+    background-size: 100%, 55rem;
+    margin-top: 5rem;
+}
+.home-grid {
+    display: flex;
+    justify-content: flex-end;
+}
+.texto-home{
+    flex-basis: 50%;
+    padding-left: 10rem;
+    color: black;
+    
+}
+.listado-inicio {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+  gap: 2rem;
+}
+.listado-home {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 2rem;
+  gap: 2rem;
+}
+.img4{
+    height: 250px ;
+    background-position: center;
+}
+.homee {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.homee a{
+    text-align: center;
+    display: block;
+    padding: 1rem;
+    font-size: 1.4rem;
+    margin-top: 2rem;
+}
+.homee a:hover {
+    background-color: #FFB84C;
+    color: black;
+    border-bottom-right-radius: 1rem;
+}
+.img5{
+    height: 270px ;
+}
 /* bloque limites */
 .limites {
     background-image: linear-gradient( to right , transparent 50%,#FFBB5C 50%, #FFBB5C 50% ), url(/img/limites.png);
@@ -259,6 +313,79 @@ iframe {
     height: 315px; ;
     object-fit: cover;
 }
+
+/* Blique algebra */
+.matriz {
+    background-image: linear-gradient( to right , transparent 50%,#FFBB5C 50%, #FFBB5C 50% ), url(/img/matriz.png);
+    padding: 10rem 0;
+    background-position: 20% center;
+    background-repeat: no-repeat;
+    background-size: 100%, 40rem;
+    margin-top: 5rem;
+}
+.matriz-grid {
+    display: flex;
+    justify-content: flex-end;
+}
+.listado-matriz {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2rem;
+}
+
+.vector {
+    background-image: linear-gradient( to right , transparent 50%,#FFBB5C 50%, #FFBB5C 50% ), url(/img/algebra.png);
+    padding: 5rem 0;
+    background-position: 20% center;
+    background-repeat: no-repeat;
+    background-size: 100%, 40rem;
+    margin-top: 5rem;
+}
+.vector-grid {
+    display: flex;
+    justify-content: flex-end;
+}
+.categoriam {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img6{
+    height: 100px;
+}
+.vectores {
+    background-image: linear-gradient( to right , transparent 50%,#FFBB5C 50%, #FFBB5C 50% ), url(/img/algebra.png);
+    padding: 5rem 0;
+    background-position: 20% center;
+    background-repeat: no-repeat;
+    background-size: 100%, 40rem;
+    margin-top: 5rem;
+}
+.vectores-grid {
+    display: flex;
+    justify-content: flex-end;
+}
+.matrices {
+    background-image: linear-gradient( to right , transparent 50%,#FFBB5C 50%, #FFBB5C 50% ), url(/img/white.png);
+    padding: 10rem 0;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 100%, 40rem;
+    margin-top: 5rem;
+}
+
+.matrices-grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+iframe {
+    width: 560px;
+    height: 315px; ;
+    object-fit: cover;
+}
 /* bloque programacion */
 .programacion {
     background-image: linear-gradient( to right , transparent 50%,#FFBB5C 50%, #FFBB5C 50% ), url(/img/programacion.avif);
@@ -281,7 +408,11 @@ iframe {
 .img3{
     height: 380px;
 }
-
+.listado-vectoress {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 2rem;
+}
 /* Bloque ejemplo */
 .ejemplo {
     background-image: linear-gradient( to right , transparent 50%,#FFBB5C 50%, #FFBB5C 50% ), url(/img/white.png);
